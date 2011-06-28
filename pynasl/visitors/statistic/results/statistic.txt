@@ -1,0 +1,48 @@
+DECLARATION Function
+----------------------------------------------------------------------------------------------------
+*.nasl files contain 281 function's declarations
+Detailed statistic is in stat_decl_function_nasl.csv
+
+*.inc files contain 465 function's declarations
+Detailed statistic is in stat_decl_function_inc.csv
+
+All files contain 740 function's declarations
+Detailed statistic is in stat_all_decl.csv
+----------------------------------------------------------------------------------------------------
+CALL Function
+----------------------------------------------------------------------------------------------------
+*.nasl files contain 662 different function's calls
+Detailed statistic is in stat_call_function_nasl.csv
+
+*.nasl files contain 156 internal function's calls
+Detailed statistic in stat_call_function_nasl_internal.csv
+
+*.inc files contain 322 different function's calls
+Detailed statistic is in stat_call_function_inc.csv
+
+All files contain 834 different function's calls
+Detailed statistic is in stat_all_call.csv
+
+All files contain 193 internal function's calls
+Detailed statistic is in stat_internal.csv
+----------------------------------------------------------------------------------------------------
+USING FUNCTIONS
+----------------------------------------------------------------------------------------------------
+Unused function's declarations in nasl scripts:
+['ventrilo_udp_crc', 'get_version_snmp', 'on_exit']
+
+97 unused function's declarations in inc files:
+['registry_flush', 'registry_shutdown', 'registry_get_binary', 'SamrConnect2', 'SamrQueryUserInfo', 'align', 'wmi_user_is_userpass_expires', 'wmi_misc_software', 'wmi_os_all', 'wmi_user_is_userpass_changeable', '_SamrEnumDomains', 'wmi_misc_localtime', 'wmi_hardware_scsicontrollerdevice', 'get_http_page', 'wmi_svc_prop', 'wmi_file_get_extnfile', 'wmi_user_is_user_locked', 'wmi_hardware_displayconf', 'wmi_hardware_ip4routetable', 'deb_check', 'wmi_proc_prop', 'wmi_filemodifieddate', 'wmi_hardware_serialportconf', 'wmi_file_is_subdir_readable', 'SamrQueryUserAliases', 'wmi_user_is_userpass_required', 'wmi_hardware_get_keyboard', 'dec2hex', 'wmi_hardware_processor', 'wmi_rsop_accesstoken', 'GetFileVersion', 'cwd', '_SamrDecodeUserInfo', 'get_data_size', 'registry_key_writeable_by_non_admin', 'php_ver_match', 'qpkg_check', 'open', 'wmi_os_hotfix', 'wmi_misc_networkprotocol', 'registry_delete_key', 'registry_get_acl', 'wmi_svc', 'wmi_proc_all', 'wmi_file_filesize', 'bin_unpack', 'wmi_file_fileinfo', 'populate', 'wmi_misc_networkadapter', 'SamrQueryUserGroups', 'headers_split', 'GetPEProductVersion', 'wmi_hardware_logicaldisk', 'wmi_svc_state', 'wmi_svc_path', 'SamrOpenDomain', 'wmi_hardware_floppydrive', 'bin_pack', 'slackware_check', 'wmi_file_file_search', 'pkg_in_list', 'ubuntu_check', 'wmi_user_is_uesraccount_disabled', 'FindFirst2', 'wmi_rsop_auditpolicy', 'ssh_cmd_error', 'wmi_misc_decode_owner_sid', 'SamrLookupNames', 'OpenPipeToSamr', 'wmi_hardware_serialport', 'dump_arr', 'wmi_hardware_floppycontroller', 'wmi_misc_decode_group_sid', 'read', 'SamrOpenUser', 'wmi_rsop_policysetting', 'wmi_file_filecreationdate', 'wmi_file_subdir', 'registry_delete_value', 'wmi_file_is_subdir_writeable', 'get_port_for_service', 'wmi_hardware_idecontroller', 'wmi_file_fileversion', 'SamrOpenBuiltin', 'udp_ping_pong', 'SamrDom2Sid', 'is_domain', 'smb_neg_prot_cleartext', 'wmi_misc_decode_dacl', 'slad_ssh_login', 'SamrQueryDomainInfo', 'wmi_misc_decode_sacl', 'wmi_os_buildnumber', 'wmi_misc_logicaldiskpartition', 'wmi_proc_path', 'wmi_file_is_file_readable', 'wmi_hardware_scsicontroller']
+
+----------------------------------------------------------------------------------------------------
+INCLUDE FILES
+----------------------------------------------------------------------------------------------------
+*.nasl files contain 54 different include()
+Detailed statistic is in stat_include_nasl.csv
+
+*.inc files contain 3 different include()
+Detailed statistic in stat_include_inc.csv
+
+8 *.inc files are unused
+['bin.inc', 'debian_package.inc', 'qpkg.inc', 'slackware.inc', 'slad_ssh.inc', 'ubuntu.inc', 'wmi_hardware.inc', 'wmi_proc.inc']
+----------------------------------------------------------------------------------------------------

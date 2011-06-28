@@ -1,0 +1,4 @@
+Function name;Count;Files name
+global_settings.inc;2;['debian_package.inc', 'secpod_reg.inc']
+ssh_func.inc;1;['default_account.inc']
+misc_func.inc;2;['netop.inc', 'smbcl_func.inc']
